@@ -1,0 +1,151 @@
+body{
+    text-align: center;
+    font-size: 18px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    margin: 40px 0px;
+}
+
+header img {
+    width: 40px;
+    height: auto;
+    margin: 0px 10px 0px;
+}
+
+header h1{
+    font-size: 40px;
+    display: inline;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+header h1:after{
+    content: "";
+    border-top: 3px solid #000;
+    display: block;
+    width: 150px;
+    margin: 25px auto;
+}
+
+header p{
+    margin: 40px auto;
+    font-size: 20px;
+}
+
+.cards-holder{
+    max-width: 900px;
+    margin: 0 auto;
+    width: 900px;
+    padding: 8px;
+}
+.card{
+    width: 30%;
+    display: inline-block;
+    margin : 10px 10px;
+}
+.card:hover{
+    position: relative;
+}
+
+.card:hover:after {
+    content: '';
+    box-shadow: 0px 6px 6px 0px rgba(50, 50, 50, 0.40);
+    display: block;
+    width: 100%;
+    height: calc(100% - 100px);
+    position: absolute;
+    bottom: 8px;
+    z-index: -1;
+}
+
+.big-photo{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  border-radius: 50%;
+}
+
+.card .name{
+  font-size: 21px;
+  font-weight: lighter;
+  margin: 0px auto;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  width: 200px;
+}
+.card .university{
+  color: lightgray;
+  margin: 10px 0px;
+}
+.extendedcard{
+  position: absolute; 
+  margin-top : -220px;
+  width:450px;
+  height: 200px;
+  z-index:99; 
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  background-color: white
+}
+
+.extendedcard .info{
+  display: block;
+  text-align: left;
+  margin-top: -20px;
+  margin-left: 10px;
+  width: 65%;
+}
+
+.extendedcard .photo{
+  width: 130px;
+  height: 130px;
+  margin-left:290px;
+  margin-top: -70px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.extendedcard .close-button{
+  width: 34px;
+  margin-left: 400px;
+  margin-top: 10px;
+}
+
+.extendedcard .extendedname{
+font-size: 30px;
+line-height: 40px;
+}
+.extendedcard .birthday-label{
+  color: gray;
+  display: inline-block;
+}
+.extendedcard .birthday{
+  display: inline-block;
+  margin-left: 10px;
+  text-align: right;
+}
+.extendedcard .universLabel{
+  color: gray;
+  display: inline-block;
+}
+.extendedcard .univers{
+  display: inline-block;
+  margin-left: 80px;
+  text-align: right;
+}
+
+.extendedcard .phoneLabel{
+  color: gray;
+  display: inline-table;
+}
+.extendedcard .phone{
+  display: inline-block;
+  margin-left: 60px;
+  text-align: right;
+}
+
+
+

@@ -1,0 +1,117 @@
+body{
+    text-align: center;
+    font-size: 18px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wrapper{
+    max-width: 900px;
+    margin: 0 auto;
+    width: 900px;
+}
+
+header{
+    margin: 40px 0px;
+}
+
+header .title img {
+    width: 40px;
+    height: auto;
+}
+
+header .title h1{
+    font-size: 40px;
+    display: inline;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+header .title:after{
+    content: "";
+    border-top: 3px solid #000;
+    display: block;
+    width: 150px;
+    margin: 25px auto;
+}
+
+header p{
+    margin: 40px auto;
+    font-size: 20px;
+}
+.card{
+    width: 30%;
+    display: inline-block;
+    margin : 10px 10px;
+}
+
+.card .big-photo{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.card .name{
+    font-size: 21px;
+    font-weight: lighter;
+    margin: 0px auto;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    width: 200px;
+}
+.card .university{
+    color: lightgray;
+    margin: 10px 0px;
+}
+.card_open{
+    position: absolute; 
+    margin-top : -220px;
+    width:450px;
+    height: 200px;
+    z-index:99; 
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background-color: white
+}
+.card_open p{
+  font-size:1.5em;
+  text-align:left;
+    line-height: 0px;
+}
+
+.card_open table{
+  border: 1;
+  width:60%;
+}
+.card_open .card_info{
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.first {
+  color: rgb(206, 206, 206) ;
+  font-size: 0.9em;
+  text-align: left;
+} 
+
+.second{
+  font-size: 0.9em;
+  text-align: left;
+}
+.button img{
+    height: 28px;
+    width: 30px;
+}
+.button{
+    margin-left: 400px;
+    margin-top: 10px;
+}
+.card_open .photocard{
+    width: 130px;
+    height: 130px;
+    margin-left:290px;
+    margin-top: -30px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
